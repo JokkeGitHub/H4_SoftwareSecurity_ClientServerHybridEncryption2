@@ -1,0 +1,6 @@
+CREATE DATABASE SecurePassword;
+
+CREATE TABLE UserDB(
+username VARCHAR(255) PRIMARY KEY,
+salt VARCHAR(255),
+hash VARCHAR(255));
